@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page1.css">
+    <script src="page1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="contain">
+        <select name="" id="poke">
+            <option value="" disabled selected>Choose your pokemon</option>
+            <script>
+                function GetPoke (){
+                    for (i=1; i<899; i++){
+                        $.getJSON('https://pokeapi.co/api/v2/pokemon/'+i+'/', (result) => {
+                            let data = document.createElement('option');
+                            data.value = result.name;
+                            data.innerHTML = result.name;
+                            document.getElementById('poke').appendChild(data);
+                        })
+                    }
+                }
+                GetPoke();
+            </script>
+        </select>
+        <button id="select" onclick="SelectPoke();">Select</button>
+        <button id="submit" onclick="gambarpoke()">Random</button>
+        <div id="nama">
+            <div id="pokename"></div>
+            <img src="https://www.freeiconspng.com/thumbs/pokeball-png/file-pokeball-png-0.png" id="pokeball">
+    </div>
+    </div>  
+    <div id="contain">
+        <div id="gambar"></div>
+        <table cellspacing="0" cellpadding="0">
+            <tr>
+                <td id="a">Type</td>
+                <td id="b1"></td>
+            </tr>
+            <tr>
+                <td id="a">Height</td>
+                <td id="b2"></td>
+            </tr>
+            <tr>
+                <td id="a">Weight</td>
+                <td id="b3"></td>
+            </tr>
+            <tr>
+                <td id="a">Ability</td>
+                <td id="b4"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
