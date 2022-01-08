@@ -1,0 +1,99 @@
+body {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/549a70f1-b9f4-4aa7-b76b-589288b03302/d97f4y5-427cd027-ed3b-466b-adf4-2d275ea2e00f.png/v1/fill/w_1024,h_768,strp/pokemon_xy_vs_background_by_lil_riku_d97f4y5-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzY4IiwicGF0aCI6IlwvZlwvNTQ5YTcwZjEtYjlmNC00YWE3LWI3NmItNTg5Mjg4YjAzMzAyXC9kOTdmNHk1LTQyN2NkMDI3LWVkM2ItNDY2Yi1hZGY0LTJkMjc1ZWEyZTAwZi5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IT5TeWXOci4gzW-uQKXaIg18KCGd3wOca9pLq0sNgyQ');
+    font-family: sans-serif;
+    background-size: cover;
+}
+#nama {
+    width: 795px;
+    height: 80px;
+    background-color: #2f2c37;
+    margin-left: 5.8%;
+    margin-top: 5%;
+    padding: 10px;
+    display: inline-flex;
+}
+#pokeball {
+    float: right;
+    width: 80px;
+    margin-left: 10px;
+}
+#pokename {
+    width: 700px;
+    height: 80px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 80px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+table {
+    border: 1px solid #2f2c37;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+td {
+    border: 1px solid #2f2c37;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+}
+#a {
+    background-color: #d2d0cd;
+    letter-spacing: 3px;
+    width: 200px;
+}
+#b1, #b2, #b3, #b4 {
+    width: 610px;
+    background-color: white;
+    text-transform: capitalize;
+}
+#contain {
+    display: inline-flex;
+    width: 100%;
+}
+#gambar {
+    width: 570px;
+    height: 400px;
+    margin-top: 3%;
+    margin-left: 10%;
+    text-align: center;
+}
+img {
+    width: 600px;
+}
+option, select {
+    text-transform: capitalize;
+}
+#poke {
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 6%;
+    margin-left: 3%;
+    background-color: rgb(223, 224, 224);
+}
+#select {
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-top: 6%;
+    margin-left: 2%;
+    cursor: pointer;
+    background-color: lightskyblue;
+}
+#submit {
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-top: 6%;
+    margin-left: 2%;
+    cursor: pointer;
+    background-color: lightsteelblue;
+}
