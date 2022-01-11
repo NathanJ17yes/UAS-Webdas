@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Staatliches&display=swap" rel="stylesheet">
 
 </head>
@@ -19,30 +19,43 @@
       color: white;
   }
   body {
-      background-color: blue;
+      background-color: white;
       padding: 0;
       margin: 0;
       font-family: 'Fredoka One', cursive;
   }
-    img {
+  img {
       width :450px;
       height: 300px;
       border-radius: 10px;
+      margin: 5px;
   }
   .container {
       margin-left: 65px;
       margin-top: 50px;
   }
+  button {
+      margin-left: 37%;
+      margin-top: 200px;
+      width: 300px;
+      height: 80px;
+      font-size: 50px;
+      background-color: red;
+      border: 0px ;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+  }
 </style>
 <body>
     <nav>◓ Poke Gallery ◓</nav>
     <div class="container">
-        
+        <button id="button" onclick="muncul()">Click me!</button>
     </div>
 
 <script src="medium-zoom.min.js"></script>
-<script>
-   let div = document.querySelector(".container")
+<script> 
+let div = document.querySelector(".container")
     function muncul(){
         $("#button").hide()
         for(let i=1; i<=9; i++){
@@ -56,7 +69,7 @@
     background : 'whitesmoke'
 })
     }
-    </script>
-
+    
+</script>
 </body>
 </html>
