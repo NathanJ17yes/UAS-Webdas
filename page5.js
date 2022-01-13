@@ -1,0 +1,23 @@
+$(document).ready(function(){
+    $('#a').hide();
+    $('#b').hide();
+    $('#c').hide();
+    $('#d1').hide();
+    $('#d2').hide();
+    $('#d3').hide();
+    $('#intro').click(function(){
+        $('#intro').html('Click Photos To See Detail');
+        $('#a').fadeIn('slow');
+        $('#b').fadeIn('slow');
+        $('#c').fadeIn('slow');
+    });
+    $('#a').click(function(){
+        $('#d1').fadeIn('slow');
+    });
+    $('#b').click(function(){
+        $('#d2').fadeIn('slow');
+    });
+    $('#c').click(function(){
+        $('#d3').fadeIn('slow');
+    });
+})
