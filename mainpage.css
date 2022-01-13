@@ -1,0 +1,88 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.sidebar {
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #FFF323;
+    transition: all .5s ease;
+}
+.sidebar header {
+    height: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    padding-left: 30px;
+    line-height: 80px;
+    background-color: #FFCA03;
+    user-select: none;
+}
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 60px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: black;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: .4s;
+}
+nav {
+    height: 80px;
+    z-index: 0;
+    background-color: #FFCA03;
+}
+ul li:hover a {
+    padding-left: 50px;
+    color: chocolate;
+}
+.sidebar ul a i {
+    margin-right: 16px;
+}
+#btn, #cancel {
+    position: absolute;
+    cursor: pointer;
+    background-color: #ffca03;
+    border-radius: 3px;
+}
+#btn {
+    left: 40px;
+    top: 17px;
+    font-size: 35px;
+    color: black;
+    padding: 6px 12px;
+    transition: all .5s;
+}
+#cancel {
+    z-index: 1000;
+    position: fixed;
+    left: -195px;
+    top: 23px;
+    font-size: 30px;
+    color: black;
+    padding: 4px 9px;
+    transition: all .5s ease;
+}
+#btn:hover, #cancel:hover {
+    color: chocolate;
+    transition: 0.3s;
+}
+section {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    transition: all .5s;
+}
