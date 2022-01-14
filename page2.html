@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Battle</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="page2.js"></script>
+    <link rel="stylesheet" href="page2.css">
+</head>
+<body>
+    <div id="hasil"></div>
+    <div id="contain">
+        <button id="batu">BATU</button>
+        <button id="gunting">GUNTING</button>
+        <button id="kertas">KERTAS</button>
+    </div>
+    <select name="" id="poke">
+        <option value="" disabled selected>Choose your pokemon</option>
+        <script>
+            function GetPoke (){
+                for (i=1; i<899; i++){
+                    $.getJSON('https://pokeapi.co/api/v2/pokemon/'+i+'/', (result) => {
+                        let data = document.createElement('option');
+                        data.value = result.name;
+                        data.innerHTML = result.name;
+                        document.getElementById('poke').appendChild(data);
+                    })
+                }
+            }
+            GetPoke();
+        </script>
+    </select>
+    <div id="ready">READY</div>
+    <div id="go">GO FIGHT</div>
+    <div id="container1">
+        <div id="hp1"></div>
+        <div id="hp2"></div>
+    </div>
+    <div id="container2">
+        <div id="gambar1"></div>
+        <div id="gambar2"></div>
+    </div>
+</body>
+</html>
