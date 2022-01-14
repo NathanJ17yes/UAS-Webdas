@@ -16,7 +16,8 @@ function readmore(i) {
         dots.style.display = "inline";
         btnText.innerHTML = "Read More"; 
         moreText.style.display = "none";
-    } else {
+    } 
+    else {
         dots.style.display = "none";
         btnText.innerHTML = "Read Less"; 
         moreText.style.display = "inline";
