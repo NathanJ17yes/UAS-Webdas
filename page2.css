@@ -1,0 +1,124 @@
+body {
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+#hasil {
+    width: 90%;
+    height: 180px;
+    border: 3px solid black;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.6);
+    overflow-y: scroll;
+    font-size: 20px;
+    padding: 10px;
+}
+#contain {
+    margin-top: 30px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    text-align: center;
+}
+button {
+    width: 120px;
+    height: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#batu {
+    background-color: gray;
+}
+#gunting {
+    background-color: yellow;
+}
+#kertas {
+    background-color: red;
+}
+#ready {
+    width: 200px;
+    height: 50px;
+    font-size: 28px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-color: lightseagreen;
+    line-height: 50px;
+    margin-top: 20%;
+    cursor: pointer;
+}
+#go {
+    width: 200px;
+    height: 50px;
+    font-size: 28px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-color: lightseagreen;
+    line-height: 50px;
+    margin-top: 2.3%;
+    cursor: pointer;
+}
+#poke {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 18px;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 14%;
+    margin-left: 17%;
+    background-color: rgb(109, 235, 228);
+    border: none;
+}
+#container1{
+    width: 95%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: inline-flex;
+    margin-top: 240px;
+}
+#container2 {
+    width: 95%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: inline-flex;
+    margin-top: 10px;
+}
+#hp1 {
+    width: 300px;
+    height: 50px;
+    margin-left: 250px;
+    line-height: 50px;
+    font-size: 28px;
+    text-align: center;
+}
+#hp2 {
+    width: 300px;
+    height: 50px;
+    margin-left: 750px;
+    line-height: 50px;
+    font-size: 28px;
+    text-align: center;
+}
+#gambar1 {
+    width: 300px;
+    height: 300px;
+    margin-left: 250px;
+    text-align: center;
+}
+#gambar2 {
+    width: 300px;
+    height: 300px;
+    margin-left: 750px;
+    text-align: center;
+}
+img {
+    width: 300px;
+}
