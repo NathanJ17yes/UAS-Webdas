@@ -3,6 +3,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     position: fixed;
+    font-family: sans-serif;
 }
 #hasil {
     width: 90%;
@@ -77,19 +78,42 @@ button {
     background-color: rgb(109, 235, 228);
     border: none;
 }
+#container3 {
+    width: 95%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: inline-flex;
+    margin-top: 200px;
+}
 #container1{
     width: 95%;
     margin-left: 50%;
     transform: translateX(-50%);
     display: inline-flex;
-    margin-top: 240px;
 }
 #container2 {
     width: 95%;
     margin-left: 50%;
     transform: translateX(-50%);
     display: inline-flex;
-    margin-top: 10px;
+}
+#name1 {
+    width: 300px;
+    height: 50px;
+    margin-left: 250px;
+    line-height: 50px;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#name2 {
+    width: 300px;
+    height: 50px;
+    margin-left: 700px;
+    line-height: 50px;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
 }
 #hp1 {
     width: 300px;
@@ -98,14 +122,16 @@ button {
     line-height: 50px;
     font-size: 28px;
     text-align: center;
+    font-family: 'Common Pixel', sans-serif;
 }
 #hp2 {
     width: 300px;
     height: 50px;
-    margin-left: 750px;
+    margin-left: 700px;
     line-height: 50px;
     font-size: 28px;
     text-align: center;
+    font-family: 'Common Pixel', sans-serif;
 }
 #gambar1 {
     width: 300px;
@@ -116,7 +142,7 @@ button {
 #gambar2 {
     width: 300px;
     height: 300px;
-    margin-left: 750px;
+    margin-left: 700px;
     text-align: center;
 }
 img {
