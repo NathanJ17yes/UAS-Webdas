@@ -25,17 +25,17 @@
       font-family: 'Fredoka One', cursive;
   }
   img {
-      width :450px;
-      height: 300px;
+      width :360px;
+      height: 240px;
       border-radius: 10px;
       margin: 5px;
   }
   .container {
-      margin-left: 65px;
+      margin-left: 140px;
       margin-top: 50px;
   }
   button {
-      margin-left: 37%;
+      margin-left: 40%;
       margin-top: 200px;
       width: 300px;
       height: 80px;
@@ -48,11 +48,11 @@
   }
 </style>
 <body>
-    <nav>◓ Poke Gallery ◓</nav>
+     <nav>◓ Poke Gallery ◓</nav>
     <div class="container">
-        <button id="button" onclick="muncul()">Click me!</button>
+        
     </div>
-
+    <button id="button" onclick="muncul()">Click me!</button>
 <script src="medium-zoom.min.js"></script>
 <script> 
 let div = document.querySelector(".container")
@@ -65,8 +65,9 @@ let div = document.querySelector(".container")
            div.appendChild(gambar)
         }
         mediumZoom(document.querySelectorAll('.zoom'),{
-            margin : 50,
-            background : 'whitesmoke'
+            margin : 55,
+            background : 'whitesmoke',
+            scrollOffset : 0,
 })
     }
     
