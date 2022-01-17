@@ -14,3 +14,7 @@ function muncul(){
             scrollOffset : 0,
 })
     } 
+function dark(){
+    let dark = document.body
+    dark.classList.toggle("dark-mode")
+}
