@@ -23,7 +23,7 @@ nav {
       width: 100%;
       text-align: center;
   }
-  button {
+  #button {
       margin-left: 40%;
       margin-top: 200px;
       width: 250px;
@@ -35,12 +35,13 @@ nav {
       color: white;
       cursor: pointer;
       z-index: 1;
+      text-align: center;
   }
- .dark-mode{
+  .dark-mode{
       background-color: black;
       color: black;
   }
-.dark-mode1{
+  .dark-mode1{
       background-color: white;
       color: black;
   }
