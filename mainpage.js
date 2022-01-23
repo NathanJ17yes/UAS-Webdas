@@ -14,12 +14,16 @@ function readmore(i) {
     let btnText = document.getElementById("myBtn"+i);
     if (dots.style.display == "none") {
         dots.style.display = "inline";
-        btnText.innerHTML = "Read More"; 
+        btnText.innerHTML = "Read More";
         moreText.style.display = "none";
-    } 
+    }
     else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read Less"; 
+        btnText.innerHTML = "Read Less";
         moreText.style.display = "inline";
     }
+}
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 }
