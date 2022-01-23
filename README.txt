@@ -4,6 +4,7 @@ halaman ini memakai library medium zoom
                  https://medium-zoom.francoischalifour.com/
   link inspirasi pemakaian library : https://www.youtube.com/watch?v=WESQFCM9KgU
 link untuk pengambilan gambar pada gallery : https://wallpaperaccess.com/pokemon-hd
+  Link inspirasi darkmode dan light mode : https://www.geeksforgeeks.org/how-to-make-dark-mode-for-websites-using-html-css-javascript/
 
 Source halaman utama
 Pemakaian sidebar menu : https://youtu.be/L0rNHlsT71Y
