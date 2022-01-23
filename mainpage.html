@@ -9,6 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="mainpage.js"></script>
     <link rel="stylesheet" href="mainpage.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
     <i class="fas fa-bars" id="btn" onclick="show()"></i>
@@ -22,12 +23,21 @@
             <li><a href="page4.html" target="_blank"><i class="nama"></i>Films</a></li>
             <li><a href="page5.html" target="_blank"><i class="nama"></i>About Us</a></li>
         </ul>
+        <img src="assets/kindpng_24125.png" id="gbrjudul">
     </div>
     <nav id="nav">
         <p id="judul">ABOUT POKEMON</p>
-        <img src="assets/kindpng_24125.png" id="gbrjudul">
+        <div id="cont">
+            <li><a href="#sejarah">Sejarah</a></li>
+            <li><a href="#game">Game</a></li>
+            <li><a href="#film">Serial</a></li>
+            <li><a href="#dev">Developer</a></li>
+        </div>
     </nav>
-    <section class="gambar sejarah">
+    <button id="btnTop" onclick="topFunction()">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+    <section class="gambar sejarah" id="sejarah">
         <div id="subjdl">Sejarah Pokemon</div>
     </section>
     <article>
@@ -41,7 +51,7 @@
         </div>
     </article>
 
-    <section class="gambar game">
+    <section class="gambar game" id="game">
         <div id="subjdl">Game Pokemon</div>
     </section>
     <article>
@@ -61,7 +71,7 @@
         </div>
     </article>
 
-    <section class="gambar film">
+    <section class="gambar film" id="film">
         <div id="subjdl">Serial Pokemon</div>
     </section>
     <article>
@@ -73,7 +83,7 @@
         </div>
     </article>
 
-    <section class="gambar dev">
+    <section class="gambar dev" id="dev">
         <div id="subjdl">Developer Pokemon</div>
     </section>
     <article>
