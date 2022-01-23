@@ -2,15 +2,25 @@ muncul()
 function muncul(){
      let div = document.querySelector(".container")
      let nav = document.getElementById("atas")
-     let dark = document.createElement("button")
+     let dark = document.createElement("div")
+     let normal = document.createElement("div")
+        normal.id = "normal"
+        dark.id="dark";
         nav.appendChild(dark)
+        nav.appendChild(normal)
+        normal.innerHTML= "Normal Mode"
         dark.innerHTML= "Dark Mode"
         dark.addEventListener("click", function(){
-            let dark = document.body
-            dark.classList.toggle("dark-mode")
-            nav.classList.toggle("dark-mode1")
+            let body = document.body
+            body.className="dark-mode"
+            nav.className="dark-mode1"
+            
         })
-        
+        normal.addEventListener("click", function(){
+            let body= document.body
+            body.className="light-mode"
+            nav.className="light-mode1"
+        })
         $("#button").hide()
             for(let i=1; i<=30; i++){
                 let gambar=document.createElement("img")
@@ -24,4 +34,3 @@ function muncul(){
             scrollOffset : 0,
 })
     }
-
