@@ -8,6 +8,7 @@ body {
     padding: 0;
     list-style: none;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 .sidebar {
     position: fixed;
@@ -61,16 +62,35 @@ button {
     border-radius: 7px;
 }
 #gbrjudul{
-    height: 60px;
-    margin-top: -70px;
+    width: 210px;
+    left: 20px;
     position: absolute;
-    right: 10px;
+    bottom: 20px;
 }
 #judul {
     font-size: 50px;
     line-height: 80px;
     font-weight: bold;
     letter-spacing: 4px;
+}
+#cont{
+    display: inline-flex;
+    position: absolute;
+    right: 40px;
+    color: black;
+    text-decoration: none;
+}
+#cont li a{
+    position: relative;
+    color: black;
+    top: -55px;
+    margin-left: 40px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: .2s;
+}
+#cont li a:hover {
+    color: chocolate;
 }
 ul li:hover a {
     padding-left: 50px;
@@ -93,6 +113,20 @@ ul li:hover a {
     padding: 6px 12px;
     transition: all .5s;
 }
+#btnTop {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #FFCA03;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    color: black;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
 #cancel {
     z-index: 1000;
     position: fixed;
@@ -113,7 +147,6 @@ section {
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
-    transition: all .5s;
 }
 .sejarah {
     background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.gamer-network.net%2F2018%2Fusgamer%2FPokemon-Company-CEO-Tsunekazu-Ishihara-Shot-01.jpg&f=1&nofb=1');
