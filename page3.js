@@ -1,20 +1,20 @@
 muncul()
 function muncul(){
      let div = document.querySelector(".container")
+     let cont = document.getElementById("contain")
      let nav = document.getElementById("atas")
      let dark = document.createElement("div")
      let normal = document.createElement("div")
         normal.id = "normal"
         dark.id="dark";
-        nav.appendChild(dark)
-        nav.appendChild(normal)
+        cont.appendChild(dark)
+        cont.appendChild(normal)
         normal.innerHTML= "Normal Mode"
         dark.innerHTML= "Dark Mode"
         dark.addEventListener("click", function(){
             let body = document.body
             body.className="dark-mode"
             nav.className="dark-mode1"
-            
         })
         normal.addEventListener("click", function(){
             let body= document.body
@@ -33,4 +33,3 @@ function muncul(){
             background : 'whitesmoke',
             scrollOffset : 0,
 })
-    }
