@@ -33,3 +33,4 @@ function muncul(){
             background : 'whitesmoke',
             scrollOffset : 0,
 })
+}
