@@ -1,6 +1,6 @@
 body {
     background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/549a70f1-b9f4-4aa7-b76b-589288b03302/d97f4y5-427cd027-ed3b-466b-adf4-2d275ea2e00f.png/v1/fill/w_1024,h_768,strp/pokemon_xy_vs_background_by_lil_riku_d97f4y5-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzY4IiwicGF0aCI6IlwvZlwvNTQ5YTcwZjEtYjlmNC00YWE3LWI3NmItNTg5Mjg4YjAzMzAyXC9kOTdmNHk1LTQyN2NkMDI3LWVkM2ItNDY2Yi1hZGY0LTJkMjc1ZWEyZTAwZi5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IT5TeWXOci4gzW-uQKXaIg18KCGd3wOca9pLq0sNgyQ');
-    font-family: sans-serif;
+    font-family: 'Fredoka One', cursive;
     background-size: cover;
 }
 #nama {
@@ -70,10 +70,11 @@ option, select {
     width: 250px;
     height: 50px;
     text-align: center;
+    border-radius: 10px;
     font-size: 20px;
     margin-top: 6%;
     margin-left: 3%;
-    background-color: rgb(223, 224, 224);
+    background-color: rgb(210, 221, 221);
 }
 #select {
     padding-left: 80px;
